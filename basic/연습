@@ -1,0 +1,12 @@
+import random
+import time
+
+GAME_TITLE_LEN_MAX  = 20
+PLAYER_NAME_LEN_MAX = 15
+GAME_LEVEL_MIN      = 1
+GAME_LEVEL_MAX      = 9
+IS_DEV_MODE         = True
+
+if not IS_DEV_MODE:
+    print( "Enjoy Custom Game world" )
+
